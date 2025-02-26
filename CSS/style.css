@@ -1,0 +1,1219 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+/*------------------Header CSS------------------- */
+header {
+    background-color: #152b5a;
+    color: #fff;
+}
+.navtop {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 2.8rem;
+}
+.contentLeft {
+    /* border: 1px solid yellow; */
+    width: 38%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.contentLeft p {
+    font-size: 14px;
+    font-family: "Montserrat",serif;
+}
+.topMedia {
+    width: 23%;
+    display: flex;
+    justify-content: space-between;
+}
+.topMedia i {
+    font-size: 25px;
+}
+.topPhone,.topMail {
+    border-left: 2px solid #fff;
+    padding-left: 10px;
+}
+.contentRight {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 19%;
+}
+.contentRight .logIn {
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Montserrat",serif;
+    border-right: 2px solid #fff;
+    padding-right: 10px;
+}
+.contentRight button {
+    height: 40px;
+    width: 170px;
+    border-radius: 3px;
+    background-color: #ff9c34;
+    color: #fff;
+    font-size: 16px;
+    font-family: "Montserrat",serif;
+    font-weight: 500;
+}
+/* ------------Navbar CSS------------------- */
+.navBar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 2.6rem;
+    /* border: 1px solid red; */
+}
+.navLinks {
+    max-width: 500px;
+    width: 100%;
+}
+.navList {
+    height: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+    font-family: "Montserrat",serif;
+    font-weight: 500;
+    align-items: center;
+}
+.navList li a {
+    color: black;
+    text-decoration: none;
+}
+.navTools {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 8%;
+}
+.navTools i {
+    font-size: larger;
+    color: #152b5a;
+}
+/* --------------BANNER CSS-------- */
+.banner {
+    height: 50vh;
+    max-width: 100%;
+    background-image: url("../IMAGES/Banner\ img.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.bannerDiv {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    position: relative;
+}
+h1 {
+    font-size: 36px;
+    font-weight: 600;
+    font-style: italic;
+    font-family: "Playfair Display",serif;
+}
+ .bHead {
+    font-size: 72px;
+    font-weight: 600;
+    font-family: "Montserrat",serif;
+}
+.bSub {
+    font-size: 30px;
+    font-family: "Montserrat",serif;
+}
+.subBannerDiv {
+    background-color: #fff;
+    color: #152b5a;
+    max-width: 1144px;
+    width: 100%;
+    /* height: 150px; */
+    border: 1px solid gray;
+    position: absolute;
+    top: 90%;
+    transform: translateX(-50%,-50%);
+    border-radius: 10px;
+    /* border: 1px solid red; */
+    padding: 2rem 0;
+}
+form {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    height: 100%;
+    padding: 0 1.5rem;
+}
+input {
+    height: 40px;
+    margin-top: 10px;
+    border: none;
+    background-color: #dad3d3;
+    padding-left: 1rem;
+}
+label {
+    font-size: 14px;
+    color: #152b5a;
+    font-family: "Montserrat",serif;
+    font-weight: 500;
+    display: inline-flex;
+    flex-direction: column;
+}
+input[type="submit"] {
+    width: 160px;
+    height: 46px;
+    background-color: #ff9c34;
+    color: #fff;
+    padding: 0;
+}
+/* ----------ABOUT US CSS----------- */
+.aboutDiv {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 1.5rem;
+    padding-top: 179px;
+}
+h2 {
+    font-size: 40px;
+    font-weight: 600;
+    font-family: "Playfair Display",serif;
+    color: #152b5a;
+    width: 60%;
+}
+h2 span {
+    color: #ff9c34;
+}
+.aboutText p {
+    font-size: 16px;
+    font-family: "Montserrat",serif;
+    color: gray;
+    margin-top: 2rem;
+}
+.aboutText button {
+    height: 41px;
+    width: 129px;
+    background-color: #ff9c34;
+    color: #fff;
+    margin-top: 2rem;
+    border: none;
+    font-size: 17px;
+    font-family: "Montserrat" ,serif;
+    font-weight: 500;
+}
+.feat {
+    margin-top: 2.5rem;
+}
+.feat span {
+    font-family: "Montserrat",serif;
+    font-weight: 600;
+    font-size: 22px;
+    color: #152b5a;
+    padding-left: 2rem;
+}
+.feat img {
+    vertical-align: middle;
+}
+/* -------JEEP CSS-------- */
+.jeep {
+    padding-top: 83px;
+}
+.jeepDiv {
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+    background-image: url("../IMAGES/jeepBackground.png");
+    height: 40vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.jeepSub {
+    font-size: 24px;
+    font-family: "Montserrat",serif;
+    font-weight: 500;
+    color: #ff9c34;
+}
+.jeepHead {
+    font-family: "Playfair Display",serif;
+    font-size: 42px;
+    font-weight: 600;
+    color: #fff;
+}
+.jeepPara {
+    font-size: 16px;
+    color: #fff;
+    margin-top: 2rem;
+    line-height: 1.5rem;
+}
+.jeepText {
+    width: 60%;
+    padding-top: 1rem;
+    padding-left: 2rem;
+}
+.jeepBox {
+    width: 134px;
+    height: 96px;
+    background-color: #fff;
+    padding-top: 1rem;
+}
+.jeepBoxes {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2.5rem;
+}
+.boxText1 {
+    color: #ff9c34;
+    font-weight: 600;
+    font-size: 36px;
+    font-family: "Montserrat",serif;
+    text-align: center;
+}
+.boxText2 {
+    color: #152b5a;
+    text-align: center;
+    font-size: 16px;
+}
+/* ----------PACKAGES CSS-------- */
+.packages {
+    padding-top: 164px;
+}
+.packages h2 {
+    text-align: center;
+    width: 100%;
+}
+.packageSub {
+      text-align: center;
+      font-size: 18px;
+      font-family: "Montserrat",serif;
+      color: gray;
+      width: 90%;
+      margin: 0 auto;
+      margin-top: 2rem;
+}
+.packagesDiv {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+.packageCard {
+    /* border: 1px solid red; */
+    padding-bottom: 1.5rem;
+    max-width: 462px;
+    width: 100%;
+}
+.packageCard img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+.packageCard button {
+    width: 220px;
+    height: 42px;
+    background-color: #ff9c34;
+    font-size: 18px;
+    font-family: "Montserrat",serif;
+    font-weight: 500;
+    color: #fff;
+    display: block;
+    margin: 0 auto;
+    margin-top: 2rem;
+}
+/* -------------GALLERY CSS------- */
+.gallery {
+    padding-top: 186px;
+}
+.gallery h2 {
+    text-align: center;
+    width: 100%;
+}
+.galleryDiv {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 1.5rem;
+}
+.galLeft {
+   display: flex;
+   flex-direction: column;
+   gap: 1rem;
+}
+.galCenter {
+   display: flex;
+   flex-direction: column;
+   gap: 1rem;
+}
+.galRight {
+   display: flex;
+   flex-direction: column;    
+   gap: 1rem;
+}
+.gallery button {
+    width: 130px;
+    height: 44px;
+    background-color: #ff9c34;
+    color: #fff;
+    display: block;
+    margin: 0 auto;
+    margin-top: 1.5rem;
+    border-color: #ff9c34;
+    font-size: 16px;
+}
+/* ----------DESTINATIONS CSS--------------- */
+.destinations {
+    padding-top: 174px;
+}
+.destinations h2 {
+    width: 100%;
+    text-align: center;
+}
+.destinSub {
+    text-align: center;
+    color: rgb(129, 126, 126);
+    font-size: 19px;
+    font-family: "Montserrat",serif;
+    margin-top: 1.5rem;
+}
+.destinDiv {
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin-top: 1.5rem;
+    /* border: 1px solid purple; */
+}
+.destinCard img {
+    max-width: 100%;
+}
+.maldives {
+    /* border: 1px solid red; */
+    max-width: 100%;
+    width: 340px;
+    background-color: #ff9c34;
+    color: #dad3d3;
+    font-family: "Montserrat",serif;
+    padding: 3rem 1rem;
+    max-height: 100%;
+}
+.malHead {
+    font-size: 26px;
+    font-weight: 600;
+}
+.malSub {
+    font-size: 14px;
+    margin-top: 1.5rem;
+}
+.malPara {
+    font-size: 16px;
+    margin-top: 1.5rem;
+}
+.malPrice {
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 2rem;
+}
+.maldives button {
+    width: 220px;
+    height: 44px;
+    background-color: #fff;
+    color: #ff9c34;
+    border-color: #fff;
+    display: block;
+    margin: 0 auto;
+    margin-top: 5rem;
+}
+/* ---------------SERVICE CSS----------- */
+.services {
+    padding-top: 6rem;
+}
+.services h2 {
+    width: 100%;
+    text-align: center;
+}
+.serviceSub{
+    text-align: center;
+    font-size: 18px;
+    color: gray;
+    font-family: "Montserrat",serif;
+    margin-top: 1.5rem;
+}
+.serviceDiv {
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1.3rem;
+    margin-top: 2rem;
+}
+.serviceCard p {
+    text-align: center;
+    margin-top: 1rem;
+    font-size: 16px;
+}
+.serviceCard img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+}
+.serviceCard {
+    border: 1px solid gray;
+    width: 30%;
+    padding: 1rem 0;
+}
+ .serviceCard .servHead {
+    font-size: 24px;
+    font-family: "PlayFair Display",serif;
+    font-weight: 600;
+    color: #152b5a;
+}
+ .serviceCard .servBook {
+    color: #ff9c34;
+    font-family: "PlayFair Display",serif;
+    font-weight: 600;
+    font-size: 21px;
+}
+/* -------------REVIEWS CSS------------ */
+.review {
+    padding: 5rem 0;
+}
+.reviewDiv {
+    display: flex;
+    /* border: 1px solid red; */
+}
+.reviewText {
+    padding: 7rem 6rem;
+    background-image: url("../IMAGES/reviewBackg.png");
+    background-repeat: no-repeat;
+    background-size: 35%;
+    background-position: right;
+}
+.reviewText .rp1 {
+ font-size: 22px;
+ font-family: "Montserrat",serif;
+ text-align: center;
+ line-height: 2rem;
+}
+.reviewText .rp2 {
+    font-family: "Montserrat",serif;
+    font-weight: 600;
+    font-size: 18px;
+    color: #152b5a;
+    margin-top: 3rem;
+}
+.reviewText .rp3 {
+    font-family: "Montserrat",serif;
+    font-size: 16px;
+    color: #ff9c34;
+    font-weight: 500;
+    margin-top: 1rem;
+}
+/* ------------------MEMBERS CSS---------------------- */
+.members {
+    padding-top: 3rem;
+}
+.members h2{
+    width: 100%;
+    text-align: center;
+}
+.memberSub {
+    width: 100%;
+    text-align: center;
+    color: gray;
+    font-size: 18px;
+    margin-top: 1.5rem;
+}
+.memberDiv {
+    /* border: 1px solid red; */
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    gap: 1.3rem;
+    margin-top: 2rem;
+}
+.memberDiv figure {
+    width: 360px;
+    max-width: 100%;
+}
+.memberDiv figure img {
+    width: 100%;
+}
+.memberName {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+    font-family: "Montserrat",serif;
+    color: #ff9c34;
+}
+.memberRole {
+    color: #152b5a;
+    font-size: 16px;
+    text-align: center;
+    font-family: "Montserrat",serif;
+    margin-top: 10px;
+}
+/* -------------BLOG CSS---------------- */
+.blog h2 {
+    text-align: center;
+    width: 100%;
+}
+.blogSub {
+    font-size: 16px;
+    font-family: "Montserrat",serif;
+    width: 100%;
+    text-align: center;
+    margin-top: 2rem;
+}
+/* ---------BLOG CSS-------------------- */
+.blog {
+    padding: 5rem 0;
+}
+.blogDiv {
+    max-width: 1188px;
+    width: 100%;
+    margin: 0 auto;
+    border: 1px solid red;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin-top: 2.5rem;
+}
+.blogCard {
+    border: 1px solid gray;
+    max-width: 558px;
+    width: 100%;
+    /* height: 346px; */
+    padding: 1rem 1rem 4rem;
+}
+.blogCard .bp1{
+ font-size: 17px;
+ font-family: "Montserrat",serif;
+ font-weight: 500;
+ color: #152b5a;
+}
+h4 {
+    font-family: "Montserrat",serif;
+    font-size: 24px;
+    font-weight: 500;
+    color: #373737;
+    margin-top: 1rem;
+}
+.blogCard .bp2 {
+    font-size: 24px;
+    font-family: "Montserrat",serif;
+    font-size: 14px;
+    margin-top: 1.5rem;
+    line-height: 2rem;
+}
+.blogCard .readMore {
+    margin-top: 1.2rem;
+}
+/* ----------------PARTNERS CSS----------------- */
+.partners {
+    padding-top: 2rem;
+}
+.partners h2 {
+    width: 100%;
+    text-align: center;
+}
+.partnerDiv {
+    /* border: 1px solid red; */
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 4rem;
+    margin-top: 2.5rem;
+}
+.partnerDiv img {
+    max-width: 100%;
+}
+/* ----------FOOTER RESPONSIVE---------------- */
+footer {
+    background-color: #152b5a;
+    color: #fff;
+    margin-top: 2rem;
+}
+h5 {
+    font-size: 30px;
+    font-weight: 600;
+    font-family: "Playfair Display",serif;
+}
+.footerDiv {
+    display: flex;
+    justify-content: space-between;
+    padding: 3rem 3rem 2rem;
+}
+.footPart {
+/* border: 1px solid yellow; */
+width: 23%;
+}
+.foot1 p{
+ font-size: 16px;
+ margin-top: 1rem;
+}
+.readMore {
+    font-size: 23px;
+    color: #ff9c34;
+}
+.foot2 ul{
+    list-style: none;
+    margin-top: 1rem;
+}
+.foot3 p{
+  font-size: 18px;
+  margin-top: 1rem;
+}
+.foot3 i {
+    color: #ff9c34;
+}
+.foot4 {
+    padding-left: 1rem;
+}
+.foot4 p {
+    margin-top: 1rem;
+}
+.foot4 form {
+    padding: 0;
+    margin: 0;
+    margin-top: 1rem;
+    width: 100%;
+    display: unset;
+}
+.foot4 form input {
+    margin: 0;
+    padding: 0;
+    width: 80%;
+    background-color: unset;
+    border: none;
+    border-bottom: 2px solid #fff;
+}
+.foot4 form input[type="submit"] {
+    width: 50%;
+    border: 1px solid #fff;
+    margin-top: 1rem;
+}
+.copyright {
+    width: 100%;
+    padding: 1rem 1rem;
+    background-color: #ff9c34;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+}
+/* --------------RESONSIVE SECTION----------- */
+@media screen and (max-width: 1399px) {
+    /* --------HEADER Responsive------------- */
+    .contentLeft {
+        width: 43%;
+    }
+    .contentRight {
+        width: 22%;
+    }
+    /* -------------PACKAGES RESPONSIVE---------- */
+    .packageCard {
+        max-width: 100%;
+        width: 32%;
+    }
+    /* ---------GALLERY RESPONSIVE-------- */
+    .galleryDiv {
+        padding: 0 1rem;
+    }
+    .galleryDiv img{
+        width: 300px;
+        max-width: 100%;
+    }
+    /* -------------REVIEW RESPONSIVE----------- */
+    .reviewText {
+        padding: 4rem 2rem;
+    }
+    /* ----------------Blog Responsive----------- */
+    .blogDiv {
+        justify-content: center;
+        align-items: center;
+        padding: 0 2rem;
+    }
+    .blogCard {
+        max-width: 100%;
+        width: 100%;
+    }
+}
+@media screen and (max-width: 1199px) {
+/* --------HEADER Responsive------------- */
+.contentLeft {
+    width: 53%;
+}
+.contentRight {
+    width: 27%;
+}
+/* --------Navbar Responsive----------- */
+.navLogo img {
+    width: 230px;
+}
+.navLinks {
+    width: 55%;
+}
+.navTools {
+    width: 12%;
+}
+/* -------------BANNER RESPONSIVE---------- */
+.bHead {
+    font-size: 60px;
+}
+label {
+    width: 43%;
+}
+/* ---------About RESPONSIVE-------------- */
+.aboutDiv {
+    padding-top: 300px;
+}
+.aboutImage {
+    width: 45%;
+}
+.aboutText {
+    width: 55%;
+}
+.aboutImage img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+/* -----------------REVIEW RESPONSIVE------------ */
+.reviewDiv figure {
+    width: 50%;
+}
+.reviewDiv figure img {
+    width: 100%;
+}
+.reviewText {
+    width: 50%;
+    padding: 1rem 1rem;
+}
+/* -----------------MEMBERS RESPONSIVE------------- */
+.memberDiv {
+    padding: 0 1.5rem;
+}
+/* ------------FOOTER RESPONSIVE---------- */
+.footerDiv {
+    flex-wrap: wrap;
+}
+.footPart {
+    width: 45%;
+    margin-top: 1rem;
+}
+}
+@media screen and (max-width: 991px) {
+    .navtop {
+        padding: 1rem 1rem;
+    }
+    .contentLeft {
+        flex-direction: column;
+    }
+    .contentRight {
+        flex-direction: column;
+        justify-content: start;
+    }
+    .contentRight .logIn {
+        width: 70%;
+        order: 2;
+        border: none;
+        border-top: 2px solid #fff;
+        margin-top: 10px;
+        text-align: center;
+        padding: 0;
+        padding-top: 5px;
+    }
+    .topMedia {
+        width: 36%;
+    }
+    .topPhone,.topMail {
+        border: none;
+        padding: 0;
+        width: 50%;
+        border-top: 2px solid #fff;
+        padding-top: 5px;
+        text-align: center;
+        margin-top: 10px;
+    }
+    /* --------Navbar Responsive----------- */
+    .navBar {
+        flex-direction: column;
+        align-items: start;
+    }
+    .navList {
+        flex-direction: column;
+        align-items: start;
+        /* padding-top: 10px; */
+    }
+    .navTools {
+        padding-top: 1rem;
+    }
+    /* -------------BANNER RESPONSIVE---------- */
+    .bHead {
+        font-size: 50px;
+        text-align: center;
+    }
+    h1 {
+        font-size: 28px;
+        text-align: center;
+    }
+    .bSub {
+        font-size: 22px;
+        text-align: center;
+    }
+    /* ---------ABOUT RESPONSIVE------------ */
+    .aboutDiv {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+    }
+    .aboutImage {
+        order: -1;
+        width: 67%;
+    }
+    .aboutText {
+        width: 100%;
+    }
+    h2 {
+        width: 70%;
+    }
+    /* --------Jeep Responsive---------- */
+    .jeep {
+        height: 70vh;
+    }
+    .jeepText {
+        width: 90%;
+    }
+    /* ---------PACKAGE RESPONSIVE--------- */
+    .packageCard button {
+        width: 110px;
+        font-size: 16px;
+    }
+    .packageSub {
+        width: 90%;
+        font-size: 16px;
+    }
+    /* --------------Review Responsive----------- */
+    .reviewDiv {
+        flex-direction: column;
+        align-items: center;
+    }
+    .reviewDiv figure{
+        width: 80%;
+    }
+    .reviewText {
+        /* border: 1px solid red; */
+        width: 80%;
+        /* background-size: 20%; */
+        margin-top: 2rem;
+    }
+    /*------------SERVICE RESPONSIVE------------ */
+    .serviceCard {
+        width: 40%;
+    }
+}
+@media screen and (max-width: 767px) {
+     /* --------HEADER Responsive------------- */
+     .contentLeft {
+        width: 50%;
+     }
+     .contentRight {
+        width: 50%;
+     }
+     .topMail ,.topPhone {
+        width: 100%;
+     }
+     .topMedia {
+        width: 60%;
+     }
+     .topMail p ,.topPhone p {
+        max-width: fit-content;
+     }
+     /* --------Navbar Responsive----------- */
+     .navTools {
+        width: 18%;
+     }
+      /* -------------BANNER RESPONSIVE---------- */
+      .banner {
+        height: 40vh;
+      }
+      /* ----------JEEP RESPONSIVE---------- */
+      .jeepBoxes {
+        margin-top: 1rem;
+      }
+      .jeepHead {
+        font-size: 30px;
+      }
+      .jeepPara{
+        margin-top: 1rem;
+      }
+      .jeepDiv {
+        height: 40vh;
+      }
+      /* ---------PACKAGE RESPONSIVE--------- */
+      .packagesDiv {
+        flex-direction: column;
+        align-items: center;
+      }
+      .packageCard {
+        width: 70%;
+        margin-top: 1.5rem;
+      }
+      .packageCard button {
+        width: 200px;
+      }
+      /* -----------DESTINATIONS RESPONSIVE------- */
+      .destinDiv {
+        padding: 0 1rem;
+      }
+      /* -----------SERVICE RESPONSIVE-------------- */
+      .serviceSub {
+        font-size: 16px;
+      }
+      /* --------------MEMBERS RESPONSIVE----------- */
+      .memberDiv {
+        flex-direction: column;
+        align-items: center;
+      }
+      .memberDiv figure {
+        width: 60%;
+        margin-top: 1rem;
+      }
+      .memberSub {
+        font-size: 16px;
+        width: 90%;
+        margin: 0 auto;
+      }
+      .members h2 {
+        font-size: 30px;
+      }
+      /* --------------BLOG RESPONSIVE----------- */
+      .blogImage {
+        width: 80%;
+      }
+      .blogImage img {
+        width: 100%;
+      }
+}
+@media screen and (max-width: 567px) {
+    .navtop {
+        flex-direction: column;
+    }
+    .contentLeft,.contentRight {
+        width: 100%;
+        align-items: start;
+        padding-top: 30px;
+    }
+    .contentRight .logIn {
+        width: 30%;
+    }
+    /* --------Navbar Responsive----------- */
+    .navBar {
+        padding: 1rem 20px;
+    }
+    .navTools {
+        width: 29%;
+    }
+     /* -------------BANNER RESPONSIVE---------- */
+     .banner {
+        height: 30vh;
+     }
+     .bHead {
+        font-size: 25px;
+        margin-top: 8px;
+     }
+     h1 {
+        font-size: 18px;
+     }
+     .bSub {
+        font-size: 16px;
+        margin-top: 5px;
+     }
+     label {
+        width: 90%;
+     }
+     /*----------------ABOUT RESPONSIVE--------- */
+     .aboutDiv {
+        padding-top: 400px;
+        padding-left: 1rem;
+        padding-right: 1rem;
+     }
+     .aboutImage {
+        width: 80%;
+     }
+     h2 {
+        font-size: 25px;
+        width: 100%;
+     }
+     .feat span{
+         font-size: 16px;
+     }
+     .feat img {
+        width: 30px;
+     }
+     .feat p {
+        font-size: 14px;
+     }
+     /* ---------Jeep Responsive-------- */
+     .jeepBox {
+        width: 70px;
+        height: 75px;
+     }
+     .boxText1 {
+        font-size: 20px;
+     }
+     .boxText2 {
+        font-size: 12px;
+     }
+     .jeepPara {
+        font-size: 14px;
+        line-height: normal;
+     }
+     .jeepHead {
+        font-style: 20px;
+     }
+     .jeepSub {
+        font-size: 16px;
+     }
+     /* ---------PACKAGE RESPONSIVE------- */
+     .packages h2 {
+        width: 100%;
+        font-size: 35px;
+     }
+     .packageSub {
+        font-size: 14px;
+     }
+     .packageCard {
+        width: 100%;
+     }
+     /*--------------GALLERY RESPONSIVE---------- */
+     .gallery {
+        padding-top: 5.5rem;
+     }
+     .gallery h2 {
+        width: 100%;
+        font-size: 25px;
+     }
+     .galleryDiv img {
+        width: 100%;
+     }
+     .galleryDiv {
+        gap: 10px;
+        flex-direction: column;
+        padding: 0 1.5rem;
+    }
+    .galLeft {
+       gap: 10px;
+    }
+    .galCenter {
+       gap: 10px;
+    }
+    .galRight {
+      gap: 10px;
+    }
+    /* ---------------DESTINATIONS RESPONSIVE---- */
+    .destinDiv {
+        padding: 0 2rem;
+    }
+    .maldives {
+        padding: 1rem 1rem;
+    }
+    .maldives button {
+        margin-top: 1.5rem;
+        width: 140px;
+        height: 40px;
+    }
+    .malSub {
+        margin-top: 1rem;
+        font-size: 12px;
+    }
+    /* ------------REVIEW RESPONSIVE---------------- */
+    .reviewText .rp1 {
+        font-size: 14px;
+    }
+    .reviewText {
+        background-size: 70%;
+    }
+/* ----------------SERVICE RESPONSIVE-------------- */
+.serviceCard {
+    width: 80%;
+}
+.serviceSub  {
+    font-size: 14px;
+}
+/* -------------------MEMBERS RESPONSIVE------------     */
+.memberDiv figure {
+    width: 80%;
+}
+.memberSub {
+    font-size: 14px;
+    margin-top: 2rem;
+}
+.members h2 {
+    font-size: 25px;
+}
+/* ----------------BLOG RESPONSIVE-------------- */
+.blog h2 {
+    font-size: 30px;
+}
+.blogSub {
+    font-size: 14px;
+}
+.blogImage {
+    width: 100%;
+}
+h4 {
+    font-size: 18px;
+    margin-top: 8px;
+}
+.blogCard {
+    padding: 10px 10px;
+}
+.blogCard .bp1 {
+    font-size: 13px;
+}
+.blogCard .bp2 {
+    line-height: normal;
+    font-size: 12px;
+    margin-top: 10px;
+}
+.blogCard .readMore {
+    font-size: 20px;
+}
+/* ----------FOOTER RESPONSIVE---------- */
+.footPart {
+    width: 100%;
+    margin-top: 2rem;
+}
+h5 {
+    font-size: 25px;
+}
+.foot4 form input[type="submit"] {
+    width: 70%;
+}
+}
